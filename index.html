@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Интернет-магазин "Страничка"</title>
+    <link rel="stylesheet" type="text/css" href='style.css'/>
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<div id="top" class="row">
+    <nav class="nav">
+        <div class="col-6">
+            <div class="row justify-content-start">
+            <a class="navigationActive" href="index.html">Главная</a>
+            <a class="navigation" href="bookwriter.php">Авторы</a>
+            <a class="navigation" href="books.php">Книги</a>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="row justify-content-end">
+            <a class="navigation"  href="authenticationPage.php">Мой кабинет</a>
+            <a class="navigation" href="registrationPage.html">Создать личный кабинет</a>
+        </div>
+        </div>
+    </nav>
+</div>
+
+<button onclick="topFunction()" id="topButton" title="Go to top">&#5169;</button>
+
+<h2 id="main" class="offset-md-1">Главная</h2>
+
+<div class="row justify-content-center">
+    <div class="col-11">
+        <p class="text-justify offset-md-1 col-10">
+            Здесь находится текст главного параграфа страницы. Система MATLAB (MATrix LABoratoty)
+            предназначена для выполнения научных и инженерных расчетов на компьютере. С ее помощью эффективно решаются
+            задачи вычислительной математики, линейной алгебры, математической статистики и математического
+            моделирования (символьная математика, уравнения в частных производных, численное интегрирование,
+            аппроксимация, решение оптимизационных задач). В состав MATLAB входит несколько десятков специализированных
+            пакетов (Toolbox), предназначенных для обработки данных в различных областях науки и техники (системы
+            управления, нечеткие системы, нейронные сети,цифровая обработка сигналов и изображений, анализ временных
+            рядов).</p>
+    </div>
+</div>
+
+<form action="">
+    <span class="offset-md-2" style="font-weight: bold;font-size: 20px">Какой бренд вы предпочитаете?</span>
+    <select name="authorSelectBox">
+        <option value="" disabled selected>Выберите любимого автора</option>
+        <option value="Достоевский">Достоевский</option>
+        <option value="Дюма">Дюма</option>
+        <option value="Пушкин">Пушкин</option>
+        <option value="Гоголь">Гоголь</option>
+        <option value="Толстой">Толстой</option>
+    </select>
+</form>
+
+<p><h2 id="contact" class="offset-md-1">Контакты</h2></p>
+
+<div class="row justify-content-center">
+    <div class="col-11">
+        <p class="text-justify offset-md-1 col-10">
+            Здесь находится образец контактной информации. Методические указания предназначены для
+            проведения лабораторного практикума по курсу «Интеллектуальный анализ данных» для студентов факультета
+            радиофизики и компьютерных технологий. Содержится учебный материал по методам обработки и анализа
+            многомерных наборов данных.</p>
+    </div>
+</div>
+
+<legend class="offset-md-2" style="font-weight: bold; font-size: 20px">Информация для связи с вами</legend>
+<form class="offset-md-2" action="tasks/task4.php" method="post" id="shortNameTask">
+    <div class="row">
+
+        <div class="col-md-3 ">
+            <input required class="form-control" type='text' placeholder="ФИО" id='longName'>
+        </div>
+
+        <div class="col-md-3">
+            <input required class="form-control" type="text" placeholder="+375XXXXXXXXX" id="cancel"
+                   onCopy="return false" onDrag="return false" onDrop="return false" onPaste="return false">
+        </div>
+
+        <input type="submit" value="Отправить" id="longNameSend">
+
+    </div>
+
+    <span id="reset" style="font-size: 12px">Ограничение по символам: 50</span>
+
+    <div>
+        <span id="shortNamePlace"></span><span id="shortNumPlace"><br></span>
+    </div>
+
+</form>
+
+<h2 id="about" class="offset-md-1">О нас</h2>
+
+<div class="row justify-content-center">
+    <div class="col-11">
+        <p class="text-justify offset-md-1 col-10" id='colors'>
+            Здесь находится образец информации об объекте. Данное издание представляет
+            собой руководство к лабораторному практикуму по курсу «Интеллектуальный анализ данных». Лабораторные работы
+            выполняются в интегрированной вычислительной среде MATLAB. Цель практикума – научить студента применять
+            методы интеллектуального анализа данных для решения ряда прикладных задач обработки и анализа многомерных
+            наборов данных на примере использования среды MATLAB. Тематика практикума охватывает алгоритмы нелинейного
+            метода наименьших квадратов, метода главных компонент, методов стохастического поиска экстремумов функции, а
+            также применение нейронных сетей для кластеризации и классификации данных. Приведенные справочные
+            теоретические сведения содержат достаточный объем информации, исключающий необходимость прибегать к другим
+            источникам литературы в ходе выполнения практических работ.</p>
+    </div>
+</div>
+
+<div class="row offset-md-2">
+    <p>
+        <input class="chBox" type="checkbox"> Достоевский
+        <input class="chBox" type="checkbox"> Дюма
+        <input class="chBox" type="checkbox"> Пушкин
+        <input class="chBox" type="checkbox"> Гоголь
+        <input class="chBox" type="checkbox"> Толстой
+    </p>
+</div>
+
+<div class="row justify-content-center">
+    <p><img src="img/book.png" class="img-fluid" alt="Книга" width="400" height="200"></p>
+</div>
+
+<div id="prankString">Минута пройдет через <span id="prank">60</span> секунд!</div>
+
+<div>
+    <p id="gradik" class="row justify-content-center">ИНТЕРАКТИВ</p>
+</div>
+
+<p><div id='block'></div></p>
+
+<div id="interactivePart">
+    <div>
+        <div>
+            Введите ширину и высоту прямоугодьника, которой хотите построить.
+            <p><input class="col-2 offset-md-1" type='text' id='w'><span> Ширина </span><input class="col-2" type='text'
+                                                                                               id='h'><span> Высота</span>
+            </p>
+        </div>
+    </div>
+
+    <div>
+        <form action="tasks/task0.php" method="post" id="task6">
+            <span id="cars"> Введите количество марок авто, которое хотите увидеть.</span>
+            <p><input class="offset-md-1" type="text" id="inputNumber">
+                <input type="submit" value="Отправить" class="appSentButton"></p>
+        </form>
+    </div>
+
+    <div>
+        <form action="tasks/task1.php" method="post" id="numSum">
+            <span id="numSumResult"> Введите число для суммирования отдельных чисел. <span
+                    id="stringNumSum"></span></span>
+            <p><input class="offset-md-1" type="text" id="numSumInput">
+                <input type="submit" value="Отправить" class="appSentButton"></p>
+        </form>
+    </div>
+
+    <div>
+        <form action="tasks/task5.php" method="post" id="minuteTask">
+            Когда на часах будет введенное количество минут, светофор будет гореть <span
+                id="trafficLights">этим цветом.</span>
+            <p><input class="offset-md-1" type="text" id="minuteInput">
+                <input type="submit" value="Отправить" class="appSentButton"></p>
+        </form>
+    </div>
+
+    <div>
+        <form action="tasks/task8.php" method="post" id="yearTask">
+            <span id="animalPlace">Узнайте, под каким знаком китайского календаря был интересующий вас год.</span>
+            <p><input class="offset-md-1" type="text" id="yearInput">
+                <input type="submit" value="Отправить" class="appSentButton"></p>
+        </form>
+    </div>
+
+    <div>
+        <div class="row justify-content-center">
+            <button type="button" onclick="rollFunc()" class="cardRoller" id="roll">Вытяни карту</button>
+        </div>
+        <p><span class="row justify-content-center" id="cardPlace"></span></p>
+    </div>
+
+    <div>
+        Количество нажатий на экран: <span id="clickCount">0</span>
+    </div>
+
+</div>
+
+<div class="row justify-content-around">
+    <div class="col-4">
+        <button class="VKpage">Автор</button>
+    </div>
+</div>
+
+<script src="JavaScript\jquery-3.5.1.js"></script>
+<script src="JavaScript\app.js"></script>
+<script src="JavaScript\topButton.js"></script>
+
+</body>

@@ -1,0 +1,247 @@
+* {
+    color: Black;
+}
+
+body {
+    font-family: Verdana;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 60%, rgba(255, 235, 180, 1) 100%);
+}
+
+#block {
+    width: 1px;
+    height: 1px;
+    bbackground: rgb(255, 228, 255);
+    background: linear-gradient(90deg, rgba(255, 228, 255, 1) 0%, rgba(255, 228, 181, 1) 50%, rgba(255, 228, 101, 1) 100%);
+}
+
+#gradik {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#prankString {
+    text-align: center;
+}
+
+#bookNameAndAuthor {
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+}
+
+#bookBlock {
+    margin: 10px;
+    background: lightyellow;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#bookName {
+    position: relative;
+    text-align: center;
+    background: lightyellow;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px 10px 20px 10px;
+    margin: 10px 0px;
+}
+
+#bookOffer {
+    position: absolute;
+    padding: 0px;
+    bottom: 0px;
+    right: 30px;
+}
+
+#longNameSend {
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: Moccasin;
+}
+
+.button {
+    position: relative;
+    display: block;
+    margin: 1vh;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: Moccasin;
+}
+
+.buttonBackToMainPage, .buttonAddBook, .VKpage, .cardRoller {
+    display: block;
+    width: 200px;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: Moccasin;
+}
+
+.appSentButton {
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: Moccasin;
+}
+
+#pageChoose {
+    text-align: center;
+    font-size: 24px;
+    background-color: moccasin;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 400px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999999
+}
+
+.overlayAddBook {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999999
+}
+
+.popup {
+    position: absolute;
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    background: lightyellow;
+}
+
+.popupContent {
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.bookInfo {
+    margin: 1vh;
+    width: 42vh;
+    text-align: justify;
+}
+
+.nav {
+    width: 100%;
+    font-size: 22px;
+    margin: 0px 15px;
+    background-color: rgba(0, 0, 0, 0.05);
+    z-index: 9999;
+}
+
+.navigation {
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    padding: 10px;
+    color: black;
+}
+
+.navigation:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.navigationActive {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.navigationActive:hover {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+#topButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: moccasin;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#topButton:hover {
+    background-color: sandybrown;
+}
+
+#interactivePart {
+    width: 750px;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    border: 5px solid sandybrown;
+    border-radius: 20px;
+
+}
+
+#authorBlock {
+    margin: 10px;
+    background: lightyellow;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#authorBookHistory {
+    text-align: left;
+}
+
+.authenticationBlock{
+    transform: translate(135%, 80%);
+    width: 500px; padding: 30px
+}
+
+.registrationBlock{
+    transform: translate(135%, 45%);
+    width: 500px; padding: 30px
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Регистрация</title>
+    <link rel="stylesheet" type="text/css" href='style.css'/>
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body>
+
+<div id="top" class="row">
+    <nav class="nav">
+        <div class="col-6">
+            <div class="row justify-content-start">
+                <a class="navigation" href="index.html">Главная</a>
+                <a class="navigation" href="bookwriter.php">Авторы</a>
+                <a class="navigation" href="books.php">Книги</a>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="row justify-content-end">
+                <a class="navigation" href="authenticationPage.php">Мой кабинет</a>
+                <a class="navigationActive" href="registrationPage.html">Создать личный кабинет</a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="registrationBlock">
+    <h2 style="font-size: 31.5px;">Регистрация пользователя</h2>
+    <form action="php/registration.php" method="post">
+        <span>Введите ваш логин</span>
+        <input required class="form-control" type='text' name='login' placeholder="Логин" id='login'><br>
+        <span>Введите адрес электронной почты</span>
+        <input required class="form-control" type='text' name='email' placeholder="Email" id='email'><br>
+        <span>Введите пароль</span>
+        <input required class="form-control" type='password' name='password' placeholder="Пароль" id='password'>
+        <br>
+        <div class="row justify-content-between">
+            <div class="col-4">
+                <input type="submit" value="Отправить" id="registration"></div>
+            <div class="col-4">
+                <input class="form-check-input" type="checkbox" onclick="showOrHide()">Show Password<br>
+            </div>
+        </div>
+        <br>
+        <a href="index.html">Назад</a>
+    </form>
+
+</div>
+
+<script src="JavaScript\passwordShowHide.js"></script>
+<script src="JavaScript\jquery-3.5.1.js"></script>
+
+</body>
