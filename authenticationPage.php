@@ -33,7 +33,7 @@
 <div class="authenticationBlock">
     <? if ($_COOKIE['user'] == ''): ?>
         <h2 style="font-size: 27px;">Аутентификация пользователя</h2>
-            <form action="php\authentication.php" method="post" id="authenticationForm">
+            <form action="php/authentication.php" method="post" id="authenticationForm">
                 <span>Введите ваш логин</span>
                 <input required class="form-control" type='text' name='login' placeholder="Логин" class="login" id='login'><br>
                 <span>Введите пароль</span>
@@ -44,7 +44,7 @@
                         <button type="submit" id="authentication">Отправить</button>
                     </div>
                     <div class="col-4">
-                        <input class="form-check-input" type="checkbox" onclick="showOrHide()">Show Password<br>
+                        <input class="form-check-input" type="checkbox" onclick="visibility()">Show Password<br>
                     </div>
                 </div>
                 <br>
@@ -56,7 +56,7 @@
 </div>
 
 <!--<script src="JavaScript\authenticationError.js"></script>-->
-<script src="JavaScript\passwordShowHide.js"></script>
-<script src="JavaScript\jquery-3.5.1.js"></script>
+<script src="JavaScript/passwordVisibility.js"></script>
+<script src="JavaScript/jquery-3.5.1.js"></script>
 
 </body>

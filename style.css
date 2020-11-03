@@ -8,6 +8,10 @@ body {
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 60%, rgba(255, 235, 180, 1) 100%);
 }
 
+h2 {
+    font-size: 31.5px;
+}
+
 #block {
     width: 1px;
     height: 1px;
@@ -216,6 +220,7 @@ body {
 }
 
 #interactivePart {
+    transform: translate(72.5%, 0%);
     width: 750px;
     padding: 25px;
     margin: 25px;
@@ -236,12 +241,14 @@ body {
     text-align: left;
 }
 
-.authenticationBlock{
+.authenticationBlock {
     transform: translate(135%, 80%);
-    width: 500px; padding: 30px
+    width: 500px;
+    padding: 30px
 }
 
-.registrationBlock{
+.registrationBlock {
     transform: translate(135%, 45%);
-    width: 500px; padding: 30px
+    width: 500px;
+    padding: 30px
 }

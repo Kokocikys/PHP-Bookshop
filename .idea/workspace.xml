@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f15f273-d658-4327-ac00-615142c6bf74" name="Default Changelist" comment="" />
+    <list default="true" id="3f15f273-d658-4327-ac00-615142c6bf74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaScript/passwordVisibility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/passwordShowHide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books.php" beforeDir="false" afterPath="$PROJECT_DIR$/books.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookwriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/bookwriter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registrationPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/registrationPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +46,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1hY3gdBzfgK6TTaZuoDSWU87kHw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,7 +60,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sign.in/JavaScript/passwordVisibility.js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -82,11 +114,31 @@
       <workItem from="1603886325037" duration="4616000" />
       <workItem from="1603914054685" duration="13184000" />
       <workItem from="1604070324323" duration="609000" />
+      <workItem from="1604088265547" duration="1143000" />
+      <workItem from="1604343915784" duration="81000" />
+      <workItem from="1604344135917" duration="4047000" />
+      <workItem from="1604349095521" duration="675000" />
+      <workItem from="1604353416888" duration="1720000" />
+      <workItem from="1604429622792" duration="657000" />
+      <workItem from="1604437471310" duration="166000" />
+      <workItem from="1604439385962" duration="2216000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="163" key="#PHP" timestamp="1600183316592">
@@ -97,10 +149,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603716818347" />
-    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1600863150493">
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1604439552159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600863150493" />
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604439552159" />
+    <state x="838" y="418" key="Github.ShareDialog" timestamp="1604088742771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="838" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604088742771" />
+    <state x="722" y="218" key="Github.UntrackedFilesDialog" timestamp="1604088762215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="722" y="218" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604088762215" />
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1603833405963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -109,6 +169,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600273929835" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604439672198">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604439672198" />
     <state x="0" y="0" width="1705" height="1027" key="dock-window-1" timestamp="1603824678082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

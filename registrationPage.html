@@ -30,29 +30,27 @@
 </div>
 
 <div class="registrationBlock">
-    <h2 style="font-size: 31.5px;">Регистрация пользователя</h2>
+    <h2>Регистрация пользователя</h2>
     <form action="php/registration.php" method="post">
         <span>Введите ваш логин</span>
-        <input required class="form-control" type='text' name='login' placeholder="Логин" id='login'><br>
+        <input class="form-control" type='text' name='login' placeholder="Логин" id='login' required><br>
         <span>Введите адрес электронной почты</span>
-        <input required class="form-control" type='text' name='email' placeholder="Email" id='email'><br>
+        <input class="form-control" type='text' name='email' placeholder="Email" id='email' required><br>
         <span>Введите пароль</span>
-        <input required class="form-control" type='password' name='password' placeholder="Пароль" id='password'>
-        <br>
+        <input class="form-control" type='password' name='password' placeholder="Пароль" id='password' required><br>
         <div class="row justify-content-between">
             <div class="col-4">
-                <input type="submit" value="Отправить" id="registration"></div>
+                <input type="submit" value="Отправить" id="registration">
+            </div>
             <div class="col-4">
-                <input class="form-check-input" type="checkbox" onclick="showOrHide()">Show Password<br>
+                <input class="form-check-input" type="checkbox" onclick="visibility()">Show Password<br>
             </div>
         </div>
-        <br>
-        <a href="index.html">Назад</a>
+        <br><a href="index.html">Назад</a>
     </form>
-
 </div>
 
-<script src="JavaScript\passwordShowHide.js"></script>
-<script src="JavaScript\jquery-3.5.1.js"></script>
+<script src="JavaScript/passwordVisibility.js"></script>
+<script src="JavaScript/jquery-3.5.1.js"></script>
 
 </body>

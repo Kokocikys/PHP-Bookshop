@@ -9,20 +9,22 @@
     <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
+<body>
+
 <div id="top" class="row">
     <nav class="nav">
         <div class="col-6">
             <div class="row justify-content-start">
-            <a class="navigationActive" href="index.html">Главная</a>
-            <a class="navigation" href="bookwriter.php">Авторы</a>
-            <a class="navigation" href="books.php">Книги</a>
+                <a class="navigationActive" href="index.html">Главная</a>
+                <a class="navigation" href="bookwriter.php">Авторы</a>
+                <a class="navigation" href="books.php">Книги</a>
             </div>
         </div>
         <div class="col-6">
             <div class="row justify-content-end">
-            <a class="navigation"  href="authenticationPage.php">Мой кабинет</a>
-            <a class="navigation" href="registrationPage.html">Создать личный кабинет</a>
-        </div>
+                <a class="navigation" href="authenticationPage.php">Мой кабинет</a>
+                <a class="navigation" href="registrationPage.html">Создать личный кабинет</a>
+            </div>
         </div>
     </nav>
 </div>
@@ -45,8 +47,8 @@
     </div>
 </div>
 
-<form action="">
-    <span class="offset-md-2" style="font-weight: bold;font-size: 20px">Какой бренд вы предпочитаете?</span>
+<form>
+    <span class="offset-md-2">Какого автора Вы предпочитаете?</span>
     <select name="authorSelectBox">
         <option value="" disabled selected>Выберите любимого автора</option>
         <option value="Достоевский">Достоевский</option>
@@ -57,7 +59,8 @@
     </select>
 </form>
 
-<p><h2 id="contact" class="offset-md-1">Контакты</h2></p>
+<p>
+<h2 id="contact" class="offset-md-1">Контакты</h2></p>
 
 <div class="row justify-content-center">
     <div class="col-11">
@@ -69,29 +72,22 @@
     </div>
 </div>
 
-<legend class="offset-md-2" style="font-weight: bold; font-size: 20px">Информация для связи с вами</legend>
+<h6 class="offset-md-2">Оставьте контактную информацию, что мы смогли связаться с вами</h6>
 <form class="offset-md-2" action="tasks/task4.php" method="post" id="shortNameTask">
     <div class="row">
-
         <div class="col-md-3 ">
             <input required class="form-control" type='text' placeholder="ФИО" id='longName'>
         </div>
-
         <div class="col-md-3">
-            <input required class="form-control" type="text" placeholder="+375XXXXXXXXX" id="cancel"
+            <input class="form-control" type="text" placeholder="+375XXXXXXXXX" id="cancel" required
                    onCopy="return false" onDrag="return false" onDrop="return false" onPaste="return false">
         </div>
-
         <input type="submit" value="Отправить" id="longNameSend">
-
     </div>
-
     <span id="reset" style="font-size: 12px">Ограничение по символам: 50</span>
-
     <div>
         <span id="shortNamePlace"></span><span id="shortNumPlace"><br></span>
     </div>
-
 </form>
 
 <h2 id="about" class="offset-md-1">О нас</h2>
@@ -131,16 +127,16 @@
     <p id="gradik" class="row justify-content-center">ИНТЕРАКТИВ</p>
 </div>
 
-<p><div id='block'></div></p>
+<p>
+<div id='block'></div>
+</p>
 
 <div id="interactivePart">
     <div>
-        <div>
-            Введите ширину и высоту прямоугодьника, которой хотите построить.
-            <p><input class="col-2 offset-md-1" type='text' id='w'><span> Ширина </span><input class="col-2" type='text'
-                                                                                               id='h'><span> Высота</span>
-            </p>
-        </div>
+        Введите ширину и высоту прямоугодьника, которой хотите построить.
+        <p><input class="col-2 offset-md-1" type='text' id='w'><span> Ширина </span><input class="col-2" type='text'
+                                                                                           id='h'><span> Высота</span>
+        </p>
     </div>
 
     <div>
@@ -187,7 +183,6 @@
     <div>
         Количество нажатий на экран: <span id="clickCount">0</span>
     </div>
-
 </div>
 
 <div class="row justify-content-around">
@@ -196,8 +191,8 @@
     </div>
 </div>
 
-<script src="JavaScript\jquery-3.5.1.js"></script>
-<script src="JavaScript\app.js"></script>
-<script src="JavaScript\topButton.js"></script>
+<script src="JavaScript/jquery-3.5.1.js"></script>
+<script src="JavaScript/app.js"></script>
+<script src="JavaScript/topButton.js"></script>
 
 </body>

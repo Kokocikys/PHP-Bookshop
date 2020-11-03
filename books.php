@@ -25,7 +25,7 @@ require_once "php/functions.php";
         </div>
         <div class="col-6">
             <div class="row justify-content-end">
-                <a class="navigation"  href="authenticationPage.php">Мой кабинет</a>
+                <a class="navigation" href="authenticationPage.php">Мой кабинет</a>
                 <a class="navigation" href="registrationPage.html">Создать личный кабинет</a>
             </div>
         </div>
@@ -34,7 +34,7 @@ require_once "php/functions.php";
 
 <button onclick="topFunction()" id="topButton" title="Go to top">&#5169;</button>
 
-<div class="row justify-content-center" style="font-size: 40px">Произведения</div>
+<div class="row justify-content-center">Произведения</div>
 
 <div class="container-fluid">
     <div class="row justify-content-center">
@@ -48,36 +48,35 @@ require_once "php/functions.php";
         foreach ($posts as $key => $post):{
             ?>
             <div class="col-md-5" id="bookBlock">
-            <div class="row">
-            <div class="col-6 col-md-5">
-            <img src=" <? echo $post['CoverPath'];
-        } ?>" width="250" height="400">
-            </div>
-            <div class="col-6 col-md-7">
-                <div class="row" id="bookNameAndAuthor">
-                    <? echo $post['BookName'] . ' – ' . $post['author'] ?>
+                <div class="row">
+                    <div class="col-6 col-md-5">
+                        <img src="<? echo $post['CoverPath'];} ?>" width="250" height="400">
+                    </div>
+                    <div class="col-6 col-md-7">
+                        <div class="row" id="bookNameAndAuthor">
+                            <? echo $post['BookName'] . ' – ' . $post['author'] ?>
+                        </div>
+                        <div class="bookInfo">
+                            Литературу невозможно представить без классики. Словно эталон писательского мастерства,
+                            напряженности сюжета, образов героев и идей, пронизывающих произведение, классическая литература
+                            возвышается над прочими работами. Ей не страшны время и обстоятельства, ведь лучшие произведения
+                            всегда найдут своего читателя.
+                        </div>
+                        <div class="row" id="bookOffer">
+                            <button class="button" id="button">Заказать</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="bookInfo">
-                    Литературу невозможно представить без классики. Словно эталон писательского мастерства,
-                    напряженности сюжета, образов героев и идей, пронизывающих произведение, классическая литература
-                    возвышается над прочими работами. Ей не страшны время и обстоятельства, ведь лучшие произведения
-                    всегда найдут своего читателя.
-                </div>
-                <div class="row" id="bookOffer">
-                    <button class="button" id="button">Заказать</button>
-                </div>
-            </div>
-            </div>
             </div>
         <? endforeach; ?>
     </div>
 </div>
 
 <div id="pageChoose">Выберете страницу
-    <select name="pageSelect" id="pageSelect" style="width: 100px">
+    <select name="pageSelect" id="pageSelect">
         <? for ($i = 0; $i < $numberOfPages = numberOfPages($limit)[0]; $i++) {
             echo '<option value="', $i + 1, '">', $i + 1, '</option>';
-        } ?>
+        }?>
     </select>
 </div>
 
@@ -123,8 +122,8 @@ require_once "php/functions.php";
     </div>
 </div>
 
-<script src="JavaScript\jquery-3.5.1.js"></script>
-<script src="JavaScript\appBooks.js"></script>
-<script src="JavaScript\topButton.js"></script>
+<script src="JavaScript/jquery-3.5.1.js"></script>
+<script src="JavaScript/appBooks.js"></script>
+<script src="JavaScript/topButton.js"></script>
 
 </body>

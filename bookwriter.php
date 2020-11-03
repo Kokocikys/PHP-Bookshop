@@ -18,6 +18,8 @@ $result2 = mysqli_fetch_all($result2, MYSQLI_ASSOC);
     <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
+<body>
+
 <div id="top" class="row">
     <nav class="nav">
         <div class="col-6">
@@ -29,7 +31,7 @@ $result2 = mysqli_fetch_all($result2, MYSQLI_ASSOC);
         </div>
         <div class="col-6">
             <div class="row justify-content-end">
-                <a class="navigation"  href="authenticationPage.php">Мой кабинет</a>
+                <a class="navigation" href="authenticationPage.php">Мой кабинет</a>
                 <a class="navigation" href="registrationPage.html">Создать личный кабинет</a>
             </div>
         </div>
@@ -38,7 +40,7 @@ $result2 = mysqli_fetch_all($result2, MYSQLI_ASSOC);
 
 <button onclick="topFunction()" id="topButton" title="Go to top">&#5169;</button>
 
-<div class="row justify-content-center" style="font-size: 40px">Авторы</div>
+<div class="row justify-content-center">Авторы</div>
 
 <div class="container-fluid">
     <div class="row justify-content-center">
@@ -49,9 +51,7 @@ $result2 = mysqli_fetch_all($result2, MYSQLI_ASSOC);
                                 src="<? echo $author['PhotoPath'] . ' "alt=" ' . $author['Fullname'] ?>" width="300"
                                 height="400">
                     </div>
-
-                    <div class="col-6 col-md-7" id="authorBookHistory"><p
-                                style="font-weight: bold; font-size: 20px"><? echo $author['Fullname']; ?></p>
+                    <div class="col-6 col-md-7" id="authorBookHistory"><p><? echo $author['Fullname']; ?></p>
                         <ul>
                             <?
                             foreach ($result2 as $book)
@@ -73,8 +73,8 @@ $result2 = mysqli_fetch_all($result2, MYSQLI_ASSOC);
     </div>
 </div>
 
-<script src="JavaScript\jquery-3.5.1.js"></script>
-<script src="JavaScript\appBookwriter.js"></script>
-<script src="JavaScript\topButton.js"></script>
+<script src="JavaScript/jquery-3.5.1.js"></script>
+<script src="JavaScript/appBookwriter.js"></script>
+<script src="JavaScript/topButton.js"></script>
 
 </body>

@@ -1,5 +1,5 @@
-function showOrHide() {
-    let passwordType = document.getElementById("password");
+function visibility() {
+    let passwordType = document.getElementById('password');
     if (passwordType.type === "password") {
         passwordType.type = "text";
     } else {
